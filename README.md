@@ -1,6 +1,6 @@
 # Lecture Summarization
 
-This repository contains a Retrieval-Augmented Generation (RAG) project that processes video and audio content to generate structured lecture summaries.
+This repository contains a LLM project that processes video and audio content to generate structured lecture summaries.
 
 ## Project Structure
 
