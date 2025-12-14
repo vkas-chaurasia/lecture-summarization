@@ -1,5 +1,6 @@
 # Lecture Summarization
 
+This project was completed as part of the **Large Language Model and It's application** module (3 ECTS credits) at the **ZHAW Center for Artificial Intelligence**.
 This repository contains a LLM project that processes video and audio content to generate structured lecture summaries.
 
 ## Project Structure
