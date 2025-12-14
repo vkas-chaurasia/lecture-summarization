@@ -24,7 +24,7 @@ This project uses [`uv`](https://github.com/astral-sh/uv) for fast dependency ma
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/lecture-summarization.git
+   git clone https://github.com/vkas-chaurasia/lecture-summarization.git
    cd lecture-summarization
    ```
 2. **Install the package**:
