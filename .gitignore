@@ -1,0 +1,38 @@
+# System files
+.DS_Store
+.postman_database.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.ls-venv
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Large Data & Media
+data/audio/
+data/videos/
+data/rag/
+data/transcripts/
+data/slides/
+data/summaries/
+data/summary/
+
+# Keep the structure but ignore content if desired, or ignore all. 
+# For now, ignoring specific heavy folders inside data, 
+# but allowing data/ itself so the folder exists.
+
+# External dependencies
+external/
+!external/.keep

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lecture-summarization"
+version = "0.1.0"
+description = "A CLI tool for transcribing and summarizing lectures."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "faiss-cpu",
+    "gradio",
+    "langchain",
+    "langchain-core",
+    "langchain-text-splitters",
+    "langchain_community",
+    "langchain_nvidia_ai_endpoints",
+    "pypdf",
+    "tiktoken",
+    "yt-dlp",
+    "fpdf2",
+    "python-dotenv",
+    "openai-whisper"
+]
+
+[project.scripts]
+lecture-cli = "lecture_summarization.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lecture_summarization"]

@@ -1,0 +1,12 @@
+faiss-cpu
+langchain
+langchain-core
+langchain-text-splitters
+langchain_community
+langchain_nvidia_ai_endpoints
+pypdf
+tiktoken
+yt-dlp
+fpdf
+python-dotenv
+openai-whisper
