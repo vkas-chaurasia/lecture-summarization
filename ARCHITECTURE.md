@@ -2,17 +2,6 @@
 
 This document explains the internal logic of the Lecture Summarization tool.
 
-## High-Level Data Flow
-
-```mermaid
-graph TD
-    A[Input: Video/URL] -->|ffmpeg / yt-dlp| B[Audio File (.wav)]
-    B -->|Whisper (Local AI)| C[Raw Transcript (.txt)]
-    C -->|LangChain Splitter| D[Text Chunks]
-    D -->|Llama 3 (NVIDIA NIM)| E[Topic Extraction]
-    E -->|Llama 3 (NVIDIA NIM)| F[Section Summaries]
-    F -->|fpdf| G[Final PDF Output]
-```
 
 ## 1. Transcription Layer (`transcribe.py`)
 This component is responsible for converting raw media into text.
